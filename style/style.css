@@ -156,3 +156,16 @@ aside h3 {
 .autor {
     margin-top: 20px;
 }
+
+@media (max-width: 768px){
+
+    .aside{
+        display: none;
+    }
+    .alinha-texto {
+        font-size: 7px;
+    }
+    .section {
+        width: 100%;
+    }
+}
